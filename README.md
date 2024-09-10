@@ -10,3 +10,4 @@
 Стр.25 Пример задания
 
 # Доска:
+![image](https://github.com/user-attachments/assets/4b1d995a-97f5-403f-8e6f-273f59ea1539)
