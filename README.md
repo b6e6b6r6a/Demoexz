@@ -1,5 +1,7 @@
 
-[БОМ](https://bom.firpo.ru/Public/86)
+# [БОМ](https://bom.firpo.ru/Public/86)
+
+# [Доска](https://bom.firpo.ru/Public/86)
 
 # Время экзамена
 ![image](https://github.com/user-attachments/assets/8bb5c281-b89f-4248-905e-874a49ecf2ff)
@@ -9,5 +11,6 @@
 
 Стр.25 Пример задания
 
-# Доска:
-![image](https://github.com/user-attachments/assets/4b1d995a-97f5-403f-8e6f-273f59ea1539)
+# DBeaver
+![image](https://github.com/user-attachments/assets/3b94ec25-6066-417c-a6bc-0e07c2460ade)
+
