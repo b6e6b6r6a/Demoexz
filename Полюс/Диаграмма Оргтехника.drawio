@@ -1,0 +1,87 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.5 Chrome/126.0.6478.183 Electron/31.3.0 Safari/537.36" version="24.7.5">
+  <diagram name="Страница — 1" id="lVhpWijETI87kqtkbyMu">
+    <mxGraphModel dx="1114" dy="845" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0W0fIUCGbUwtNSVNY13x-1" value="Модуль учета заявок на ремонт оргтехники" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="260" width="810" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="0W0fIUCGbUwtNSVNY13x-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" parent="0W0fIUCGbUwtNSVNY13x-1" source="0W0fIUCGbUwtNSVNY13x-7" target="0W0fIUCGbUwtNSVNY13x-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0W0fIUCGbUwtNSVNY13x-21" value="Extend" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="0W0fIUCGbUwtNSVNY13x-20" vertex="1" connectable="0">
+          <mxGeometry x="-0.05" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0W0fIUCGbUwtNSVNY13x-7" value="Обработка заявки, включающая анализ заявки, определение ее приорететности и матера, который выполнит задачу. При необходимости дополнительной информации связывается с клиентом. Мониторит время обработки заказов, качетство выполненых работ и расходы" style="ellipse;whiteSpace=wrap;html=1;" parent="0W0fIUCGbUwtNSVNY13x-1" vertex="1">
+          <mxGeometry x="50" y="50" width="300" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="0W0fIUCGbUwtNSVNY13x-8" value="Оставляет заявку на ремонт оргтехники&lt;div&gt;и имееет возможность редактировать эту заявку&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="0W0fIUCGbUwtNSVNY13x-1" vertex="1">
+          <mxGeometry x="560" y="390" width="180" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="0W0fIUCGbUwtNSVNY13x-9" value="Регестрирует заявки закачзчиков" style="ellipse;whiteSpace=wrap;html=1;" parent="0W0fIUCGbUwtNSVNY13x-1" vertex="1">
+          <mxGeometry x="660" y="70" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0W0fIUCGbUwtNSVNY13x-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;" parent="0W0fIUCGbUwtNSVNY13x-1" source="0W0fIUCGbUwtNSVNY13x-10" target="0W0fIUCGbUwtNSVNY13x-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0W0fIUCGbUwtNSVNY13x-22" value="Include" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="0W0fIUCGbUwtNSVNY13x-19" vertex="1" connectable="0">
+          <mxGeometry y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0W0fIUCGbUwtNSVNY13x-10" value="Присваивает уникальный идентификатор заявки и сохраняет его" style="ellipse;whiteSpace=wrap;html=1;" parent="0W0fIUCGbUwtNSVNY13x-1" vertex="1">
+          <mxGeometry x="630" y="190" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0W0fIUCGbUwtNSVNY13x-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" parent="0W0fIUCGbUwtNSVNY13x-1" source="0W0fIUCGbUwtNSVNY13x-11" target="0W0fIUCGbUwtNSVNY13x-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0W0fIUCGbUwtNSVNY13x-25" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="0W0fIUCGbUwtNSVNY13x-24" vertex="1" connectable="0">
+          <mxGeometry x="0.2" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0W0fIUCGbUwtNSVNY13x-26" value="Extend" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="0W0fIUCGbUwtNSVNY13x-24" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0W0fIUCGbUwtNSVNY13x-11" value="Ремонтирует оргтехнику, заменяет или чинит необходимые детали. Фиксирует этапы работы, а по окончании делает отчет в котором указывает затраты, время и оказанной помощи для выполнения заказа&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" parent="0W0fIUCGbUwtNSVNY13x-1" vertex="1">
+          <mxGeometry x="50" y="350" width="300" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="0W0fIUCGbUwtNSVNY13x-12" value="Может продлевать срок выполнения работы мастером заказа по согласования с заказчиком" style="ellipse;whiteSpace=wrap;html=1;" parent="0W0fIUCGbUwtNSVNY13x-1" vertex="1">
+          <mxGeometry x="100" y="235" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="0W0fIUCGbUwtNSVNY13x-23" value="При необходимости заказывает новые запчасти и координируется с другими специалистами." style="ellipse;whiteSpace=wrap;html=1;" parent="0W0fIUCGbUwtNSVNY13x-1" vertex="1">
+          <mxGeometry x="100" y="515" width="210" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="0W0fIUCGbUwtNSVNY13x-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="0W0fIUCGbUwtNSVNY13x-3" target="0W0fIUCGbUwtNSVNY13x-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0W0fIUCGbUwtNSVNY13x-3" value="Менеджер" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="30" y="370" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0W0fIUCGbUwtNSVNY13x-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0W0fIUCGbUwtNSVNY13x-4" target="0W0fIUCGbUwtNSVNY13x-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0W0fIUCGbUwtNSVNY13x-4" value="Мастер" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="20" y="680" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0W0fIUCGbUwtNSVNY13x-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="0W0fIUCGbUwtNSVNY13x-5" target="0W0fIUCGbUwtNSVNY13x-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0W0fIUCGbUwtNSVNY13x-5" value="Оператор" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="920" y="360" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0W0fIUCGbUwtNSVNY13x-6" value="Заказчик" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="910" y="660" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0W0fIUCGbUwtNSVNY13x-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.956;entryY=0.288;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="0W0fIUCGbUwtNSVNY13x-6" target="0W0fIUCGbUwtNSVNY13x-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
